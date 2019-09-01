@@ -23,9 +23,9 @@ class Matrix extends Component {
         for (let i = 1; i <= size; i++) {
             let children = []
             for (let j = 1; j <= size; j++) {
-            children.push(<td className="element">{`${j * i}`}</td>)
+            children.push(<td key={i*j} className="table-element">{`${j * i}`}</td>)
             }
-            table.push(<tr>{children}</tr>)
+            table.push(<tr key={i}>{children}</tr>)
         }
         return table        
     }

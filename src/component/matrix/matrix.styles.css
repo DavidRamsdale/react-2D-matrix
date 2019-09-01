@@ -1,0 +1,17 @@
+#input-field {
+    border-radius: 8px;
+    border-color: green;
+    margin-bottom: 15px;
+}
+
+.element {
+    border: solid 1px black;
+    padding: 6px;
+    border-radius: 4px;
+    width: 25px;
+    height: 25px;
+}
+
+.container {
+    text-align: left;
+}
